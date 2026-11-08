@@ -1,0 +1,182 @@
+[
+  {
+    "id": "explorer_hat",
+    "name": "탐험가 모자",
+    "category": "accessory",
+    "path": "assets/stickers/explorer_hat.svg"
+  },
+  {
+    "id": "cap",
+    "name": "야구 모자",
+    "category": "accessory",
+    "path": "assets/stickers/cap.svg"
+  },
+  {
+    "id": "crown",
+    "name": "왕관",
+    "category": "accessory",
+    "path": "assets/stickers/crown.svg"
+  },
+  {
+    "id": "ribbon",
+    "name": "리본",
+    "category": "accessory",
+    "path": "assets/stickers/ribbon.svg"
+  },
+  {
+    "id": "scarf",
+    "name": "목도리",
+    "category": "accessory",
+    "path": "assets/stickers/scarf.svg"
+  },
+  {
+    "id": "glasses",
+    "name": "안경",
+    "category": "accessory",
+    "path": "assets/stickers/glasses.svg"
+  },
+  {
+    "id": "sunglasses",
+    "name": "선글라스",
+    "category": "accessory",
+    "path": "assets/stickers/sunglasses.svg"
+  },
+  {
+    "id": "flower",
+    "name": "꽃",
+    "category": "accessory",
+    "path": "assets/stickers/flower.svg"
+  },
+  {
+    "id": "leaf",
+    "name": "나뭇잎",
+    "category": "accessory",
+    "path": "assets/stickers/leaf.svg"
+  },
+  {
+    "id": "heart",
+    "name": "하트",
+    "category": "accessory",
+    "path": "assets/stickers/heart.svg"
+  },
+  {
+    "id": "star",
+    "name": "별",
+    "category": "accessory",
+    "path": "assets/stickers/star.svg"
+  },
+  {
+    "id": "eco_badge",
+    "name": "보호 배지",
+    "category": "accessory",
+    "path": "assets/stickers/eco_badge.svg"
+  },
+  {
+    "id": "backpack",
+    "name": "가방",
+    "category": "accessory",
+    "path": "assets/stickers/backpack.svg"
+  },
+  {
+    "id": "camera",
+    "name": "카메라",
+    "category": "accessory",
+    "path": "assets/stickers/camera.svg"
+  },
+  {
+    "id": "binoculars",
+    "name": "망원경",
+    "category": "accessory",
+    "path": "assets/stickers/binoculars.svg"
+  },
+  {
+    "id": "paw",
+    "name": "발자국",
+    "category": "accessory",
+    "path": "assets/stickers/paw.svg"
+  },
+  {
+    "id": "sparkles",
+    "name": "반짝임",
+    "category": "accessory",
+    "path": "assets/stickers/sparkles.svg"
+  },
+  {
+    "id": "happy_eyes",
+    "name": "웃는 눈",
+    "category": "expression",
+    "path": "assets/stickers/happy_eyes.svg"
+  },
+  {
+    "id": "blush",
+    "name": "분홍 볼",
+    "category": "expression",
+    "path": "assets/stickers/blush.svg"
+  },
+  {
+    "id": "eyebrows",
+    "name": "눈썹",
+    "category": "expression",
+    "path": "assets/stickers/eyebrows.svg"
+  },
+  {
+    "id": "eye_spark",
+    "name": "반짝이는 눈",
+    "category": "expression",
+    "path": "assets/stickers/eye_spark.svg"
+  },
+  {
+    "id": "cheek_heart",
+    "name": "볼 하트",
+    "category": "expression",
+    "path": "assets/stickers/cheek_heart.svg"
+  },
+  {
+    "id": "flower_petals",
+    "name": "꽃잎",
+    "category": "pattern",
+    "path": "assets/stickers/flower_petals.svg"
+  },
+  {
+    "id": "dots",
+    "name": "점무늬",
+    "category": "pattern",
+    "path": "assets/stickers/dots.svg"
+  },
+  {
+    "id": "stripes",
+    "name": "줄무늬",
+    "category": "pattern",
+    "path": "assets/stickers/stripes.svg"
+  },
+  {
+    "id": "snowflake",
+    "name": "눈꽃",
+    "category": "pattern",
+    "path": "assets/stickers/snowflake.svg"
+  },
+  {
+    "id": "droplet",
+    "name": "물방울",
+    "category": "pattern",
+    "path": "assets/stickers/droplet.svg"
+  },
+  {
+    "id": "butterfly",
+    "name": "나비",
+    "category": "pattern",
+    "path": "assets/stickers/butterfly.svg"
+  },
+  {
+    "id": "leaf_cluster",
+    "name": "나뭇잎 무늬",
+    "category": "pattern",
+    "path": "assets/stickers/leaf_cluster.svg"
+  },
+  {
+    "id": "wave",
+    "name": "물결",
+    "category": "pattern",
+    "path": "assets/stickers/wave.svg"
+  }
+]

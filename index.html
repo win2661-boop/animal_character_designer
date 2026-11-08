@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#164A43">
+<meta name="description" content="18종 동물의 90가지 행동 캐릭터를 골라 꾸미고 캔바용 PNG로 저장하는 초등학교 3학년 웹앱">
+<title>지구를 지켜ZOOM! | 나만의 생태동물 캐릭터 디자이너</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="logo" aria-hidden="true">🌿</div>
+    <div><div class="eyebrow">지구를 지켜ZOOM! · 생태예술 프로젝트</div><h1>나만의 생태동물 <span>캐릭터 디자이너</span></h1></div>
+  </div>
+  <div class="header-status"><span class="pill">🐾 18종</span><span class="pill">🎨 90개 동작</span></div>
+</header>
+<div class="guide"><span><b>1</b> 동물 찾기</span><i>›</i><span><b>2</b> 동작 선택</span><i>›</i><span><b>3</b> 꾸미기</span><i>›</i><span><b>4</b> PNG 저장</span></div>
+<main class="layout">
+  <aside class="panel animal-panel">
+    <div class="panel-title"><div><h2>동물 친구 찾기</h2><p>마음에 드는 동물을 골라요</p></div><span class="small-pill">18종</span></div>
+    <div class="search-row"><label for="search" class="sr-only">동물 이름 검색</label><input id="search" type="search" placeholder="동물 이름 검색 (예: 눈표범)" autocomplete="off"><button type="button" id="clearSearch" class="icon-button" aria-label="검색 초기화" title="전체 동물 보기">↺</button></div>
+    <div class="habitat-filter" id="habitatFilter" aria-label="서식지별 동물 보기"></div>
+    <div id="animalList" class="animal-list" aria-live="polite"></div>
+    <p class="aside-note">동물 사진이 아닌 <b>첨부된 캐릭터 일러스트</b>로 꾸며요. 일부 동작은 저해상도 시안이에요.</p>
+  </aside>
+  <section class="center-column">
+    <div class="panel pose-panel"><div class="panel-title"><div><h2 id="poseHeading">동작을 선택해요</h2><p>모양이 마음에 드는 그림을 누르세요</p></div><span id="poseCount" class="small-pill">5개</span></div><div id="poseGallery" class="pose-gallery" aria-label="동물의 동작 5가지"></div></div>
+    <div class="panel editing-panel">
+      <div class="edit-heading"><div><h2>내 캐릭터 꾸미기 <span class="edit-spark">✦</span></h2><p id="selectionLabel">캐릭터를 선택해 주세요</p></div><div class="history-actions"><button id="undoBtn" type="button" title="실행 취소 Ctrl+Z" disabled>↶ 되돌리기</button><button id="redoBtn" type="button" title="다시 실행 Ctrl+Y" disabled>↷ 다시</button></div></div>
+      <div class="canvas-shell"><div class="canvas-frame"><canvas id="stage" width="900" height="900" aria-label="캐릭터와 꾸미기 소품을 드래그할 수 있는 편집 화면"></canvas><div id="loadingBadge" class="loading-badge" hidden>이미지를 불러오는 중…</div></div><div class="canvas-hint">그림을 누른 후 드래그하여 옮기세요 · 체크무늬는 투명 배경 표시</div></div>
+      <div id="qualityNotice" class="quality-notice" role="status"></div>
+      <div class="edit-actions"><button type="button" id="baseBtn">🐾 동물 선택</button><button type="button" id="deleteStickerBtn">🗑 선택 소품 삭제</button><button type="button" id="resetBtn">↺ 꾸미기 초기화</button></div>
+      <div class="download-line"><button type="button" id="downloadBtn" class="download-button">⬇ PNG 이미지 저장 <small>캔바에서 사용하기</small></button><button type="button" id="saveProjectBtn" class="side-button">💾 작업 저장</button><button type="button" id="loadProjectBtn" class="side-button">📂 불러오기</button><input id="loadInput" type="file" accept=".json,application/json" hidden></div>
+      <p class="export-explain">사진 테두리가 아니라 실제 PNG의 투명 영역을 유지합니다. <strong>원본이 흰 배경인 일부 동작은 흰 배경까지 저장</strong>되므로 교사용 이미지 교체 기능을 이용할 수 있어요.</p>
+    </div>
+  </section>
+  <aside class="panel tools-panel"><div class="panel-title"><div><h2>캐릭터 꾸미기</h2><p>장식은 여러 개 추가할 수 있어요</p></div><span class="small-pill">30종</span></div>
+    <div class="tabs" role="tablist" aria-label="꾸미기 종류"><button type="button" data-tab="accessory" class="active" role="tab" aria-selected="true">🎩 소품</button><button type="button" data-tab="expression" role="tab" aria-selected="false">😊 표정</button><button type="button" data-tab="pattern" role="tab" aria-selected="false">✨ 무늬</button><button type="button" data-tab="color" role="tab" aria-selected="false">🎨 색감</button></div>
+    <div id="stickerTab"><p class="tool-help">꾸미기를 누르면 그림에 추가돼요. 추가한 장식은 옮기고 돌릴 수 있어요.</p><div id="stickerGrid" class="sticker-grid"></div></div>
+    <div id="colorTab" hidden><p class="tool-help">색감은 동물 원본에만 적용해요. 언제든지 원래대로 되돌릴 수 있어요.</p><div id="colorPresets" class="presets"></div><label class="slider-label" for="brightness">밝기 <output id="brightOutput">100%</output></label><input id="brightness" type="range" min="60" max="150" value="100"><label class="slider-label" for="saturation">채도 <output id="satOutput">100%</output></label><input id="saturation" type="range" min="0" max="200" value="100"></div>
+    <div class="selected-panel"><h3>선택한 그림 편집</h3><p id="targetName" class="target-name">🐾 동물 캐릭터</p><div class="control-row"><button id="moveLeft" aria-label="왼쪽 이동">←</button><button id="moveUp" aria-label="위쪽 이동">↑</button><button id="moveDown" aria-label="아래쪽 이동">↓</button><button id="moveRight" aria-label="오른쪽 이동">→</button></div><div class="control-row"><button id="smaller">－ 축소</button><button id="bigger">＋ 확대</button></div><div class="control-row"><button id="rotateLeft">↶ 회전</button><button id="rotateRight">↷ 회전</button><button id="flipBtn">⇆ 좌우 반전</button></div><div class="control-row"><button id="centerBtn">◎ 중앙 정렬</button><button id="frontBtn">⇧ 맨 앞으로</button></div></div>
+    <details class="teacher-tools"><summary>교사용 · 현재 그림 교체하기</summary><p>품질이 낮은 시안을 새 PNG로 교체해 볼 수 있어요. <b>현재 브라우저의 작업에만 적용</b>되며, 모든 학생에게 배포하려면 ZIP 안의 같은 파일을 바꿔 GitHub Pages에 다시 올려야 합니다.</p><label class="teacher-upload">🖼 새 PNG 불러오기<input id="overrideInput" type="file" accept="image/png,image/jpeg,image/webp" hidden></label><button id="removeOverrideBtn" type="button">원본 이미지로 되돌리기</button></details>
+  </aside>
+</main>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<footer>초등학교 3학년 생태·예술 융합 프로젝트 · 회원가입·로그인·유료 API 없음 · 작품의 생태카드 작성은 Canva에서 별도로 진행</footer>
+</body>
+</html>

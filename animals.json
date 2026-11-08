@@ -1,0 +1,1213 @@
+{
+  "schemaVersion": 1,
+  "project": "지구를 지켜ZOOM! 나만의 생태동물 캐릭터 디자이너",
+  "count": 90,
+  "animals": [
+    {
+      "id": "penguin",
+      "name": "황제펭귄",
+      "habitat": "극지",
+      "poses": [
+        {
+          "id": "penguin-01",
+          "order": 1,
+          "name": "서 있기",
+          "path": "assets/animals/penguin/01.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": false,
+          "backgroundStatus": "흰 배경 포함",
+          "sourceFilename": "귀여운_황제펭귄_캐릭터_일러스트.png"
+        },
+        {
+          "id": "penguin-02",
+          "order": 2,
+          "name": "뒤뚱 걷기",
+          "path": "assets/animals/penguin/02.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": false,
+          "backgroundStatus": "흰 배경 포함",
+          "sourceFilename": "뒤뚱뒤뚱_걷는_황제펭귄.png"
+        },
+        {
+          "id": "penguin-03",
+          "order": 3,
+          "name": "헤엄치기",
+          "path": "assets/animals/penguin/03.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": false,
+          "backgroundStatus": "흰 배경 포함",
+          "sourceFilename": "귀여운_황제펭귄의_수중_유영.png"
+        },
+        {
+          "id": "penguin-04",
+          "order": 4,
+          "name": "알 품기",
+          "path": "assets/animals/penguin/04.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": false,
+          "backgroundStatus": "흰 배경 포함",
+          "sourceFilename": "알을_품은_귀여운_황제펭귄.png"
+        },
+        {
+          "id": "penguin-05",
+          "order": 5,
+          "name": "새끼 보살피기",
+          "path": "assets/animals/penguin/05.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": false,
+          "backgroundStatus": "흰 배경 포함",
+          "sourceFilename": "황제펭귄의_따뜻한_포옹.png"
+        }
+      ]
+    },
+    {
+      "id": "wolf",
+      "name": "회색늑대",
+      "habitat": "숲",
+      "poses": [
+        {
+          "id": "wolf-01",
+          "order": 1,
+          "name": "서 있기",
+          "path": "assets/animals/wolf/01.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": false,
+          "backgroundStatus": "흰 배경 포함",
+          "sourceFilename": "친근한_회색_늑대_캐릭터.png"
+        },
+        {
+          "id": "wolf-02",
+          "order": 2,
+          "name": "달리기",
+          "path": "assets/animals/wolf/02.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": false,
+          "backgroundStatus": "흰 배경 포함",
+          "sourceFilename": "신나게_달리는_귀여운_늑대.png"
+        },
+        {
+          "id": "wolf-03",
+          "order": 3,
+          "name": "울부짖기",
+          "path": "assets/animals/wolf/03.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": false,
+          "backgroundStatus": "흰 배경 포함",
+          "sourceFilename": "귀여운_회색_늑대의_울부짖음.png"
+        },
+        {
+          "id": "wolf-04",
+          "order": 4,
+          "name": "냄새 맡기",
+          "path": "assets/animals/wolf/04.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": false,
+          "backgroundStatus": "흰 배경 포함",
+          "sourceFilename": "땅을_추적하는_귀여운_늑대.png"
+        },
+        {
+          "id": "wolf-05",
+          "order": 5,
+          "name": "새끼 돌보기",
+          "path": "assets/animals/wolf/05.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": false,
+          "backgroundStatus": "흰 배경 포함",
+          "sourceFilename": "다정한_늑대_가족의_보살핌.png"
+        }
+      ]
+    },
+    {
+      "id": "gorilla",
+      "name": "고릴라",
+      "habitat": "숲",
+      "poses": [
+        {
+          "id": "gorilla-01",
+          "order": 1,
+          "name": "앉아 쉬기",
+          "path": "assets/animals/gorilla/01.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": true,
+          "backgroundStatus": "투명 영역 있음",
+          "sourceFilename": "귀여운_미소의_고릴라_스티커.png"
+        },
+        {
+          "id": "gorilla-02",
+          "order": 2,
+          "name": "손등 짚고 걷기",
+          "path": "assets/animals/gorilla/02.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": true,
+          "backgroundStatus": "투명 영역 있음",
+          "sourceFilename": "귀여운_고릴라_스티커_일러스트.png"
+        },
+        {
+          "id": "gorilla-03",
+          "order": 3,
+          "name": "가슴 두드리기",
+          "path": "assets/animals/gorilla/03.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": true,
+          "backgroundStatus": "투명 영역 있음",
+          "sourceFilename": "가슴을_두드리는_귀여운_고릴라.png"
+        },
+        {
+          "id": "gorilla-04",
+          "order": 4,
+          "name": "잎 먹기",
+          "path": "assets/animals/gorilla/04.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": true,
+          "backgroundStatus": "투명 영역 있음",
+          "sourceFilename": "잎사귀를_먹는_귀여운_고릴라.png"
+        },
+        {
+          "id": "gorilla-05",
+          "order": 5,
+          "name": "새끼 안기",
+          "path": "assets/animals/gorilla/05.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": true,
+          "backgroundStatus": "투명 영역 있음",
+          "sourceFilename": "아기_고릴라를_품은_사랑의_포옹.png"
+        }
+      ]
+    },
+    {
+      "id": "redpanda",
+      "name": "레서판다",
+      "habitat": "숲",
+      "poses": [
+        {
+          "id": "redpanda-01",
+          "order": 1,
+          "name": "앉아 있기",
+          "path": "assets/animals/redpanda/01.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": true,
+          "backgroundStatus": "투명 영역 있음",
+          "sourceFilename": "귀여운_레서판다_스티커.png"
+        },
+        {
+          "id": "redpanda-02",
+          "order": 2,
+          "name": "나무 오르기",
+          "path": "assets/animals/redpanda/02.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": true,
+          "backgroundStatus": "투명 영역 있음",
+          "sourceFilename": "나뭇가지를_타는_귀여운_레서판다.png"
+        },
+        {
+          "id": "redpanda-03",
+          "order": 3,
+          "name": "대나무 먹기",
+          "path": "assets/animals/redpanda/03.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": true,
+          "backgroundStatus": "투명 영역 있음",
+          "sourceFilename": "대나무를_먹는_귀여운_레서판다.png"
+        },
+        {
+          "id": "redpanda-04",
+          "order": 4,
+          "name": "꼬리 감고 자기",
+          "path": "assets/animals/redpanda/04.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": true,
+          "backgroundStatus": "투명 영역 있음",
+          "sourceFilename": "꼬리를_두른_잠든_아기_레서판다.png"
+        },
+        {
+          "id": "redpanda-05",
+          "order": 5,
+          "name": "나무 내려오기",
+          "path": "assets/animals/redpanda/05.png",
+          "quality": "high",
+          "width": 1254,
+          "height": 1254,
+          "hasTransparency": true,
+          "backgroundStatus": "투명 영역 있음",
+          "sourceFilename": "나무를_내려오는_아기_레서판다.png"
+        }
+      ]
+    },
+    {
+      "id": "mandrill",
+      "name": "맨드릴원숭이",
+      "habitat": "숲",
+      "poses": [
+        {
+          "id": "mandrill-01",
+          "order": 1,
+          "name": "걷기",
+          "path": "assets/animals/mandrill/01.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "01_걷기.png"
+        },
+        {
+          "id": "mandrill-02",
+          "order": 2,
+          "name": "나무오르기",
+          "path": "assets/animals/mandrill/02.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "02_나무오르기.png"
+        },
+        {
+          "id": "mandrill-03",
+          "order": 3,
+          "name": "열매먹기",
+          "path": "assets/animals/mandrill/03.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "03_열매먹기.png"
+        },
+        {
+          "id": "mandrill-04",
+          "order": 4,
+          "name": "볼주머니사용",
+          "path": "assets/animals/mandrill/04.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "04_볼주머니사용.png"
+        },
+        {
+          "id": "mandrill-05",
+          "order": 5,
+          "name": "털골라주기",
+          "path": "assets/animals/mandrill/05.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "05_털골라주기.png"
+        }
+      ]
+    },
+    {
+      "id": "sandcat",
+      "name": "모래고양이",
+      "habitat": "사막",
+      "poses": [
+        {
+          "id": "sandcat-01",
+          "order": 1,
+          "name": "앉기",
+          "path": "assets/animals/sandcat/01.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "01_앉기.png"
+        },
+        {
+          "id": "sandcat-02",
+          "order": 2,
+          "name": "살금살금걷기",
+          "path": "assets/animals/sandcat/02.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "02_살금살금걷기.png"
+        },
+        {
+          "id": "sandcat-03",
+          "order": 3,
+          "name": "모래파기",
+          "path": "assets/animals/sandcat/03.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "03_모래파기.png"
+        },
+        {
+          "id": "sandcat-04",
+          "order": 4,
+          "name": "귀세우기",
+          "path": "assets/animals/sandcat/04.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "04_귀세우기.png"
+        },
+        {
+          "id": "sandcat-05",
+          "order": 5,
+          "name": "굴에서쉬기",
+          "path": "assets/animals/sandcat/05.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "05_굴에서쉬기.png"
+        }
+      ]
+    },
+    {
+      "id": "meerkat",
+      "name": "미어캣",
+      "habitat": "초원",
+      "poses": [
+        {
+          "id": "meerkat-01",
+          "order": 1,
+          "name": "앉기",
+          "path": "assets/animals/meerkat/01.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "01_앉기.png"
+        },
+        {
+          "id": "meerkat-02",
+          "order": 2,
+          "name": "망보기",
+          "path": "assets/animals/meerkat/02.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "02_망보기.png"
+        },
+        {
+          "id": "meerkat-03",
+          "order": 3,
+          "name": "땅굴파기",
+          "path": "assets/animals/meerkat/03.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "03_땅굴파기.png"
+        },
+        {
+          "id": "meerkat-04",
+          "order": 4,
+          "name": "벌레먹기",
+          "path": "assets/animals/meerkat/04.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "04_벌레먹기.png"
+        },
+        {
+          "id": "meerkat-05",
+          "order": 5,
+          "name": "햇볕쬐기",
+          "path": "assets/animals/meerkat/05.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "05_햇볕쬐기.png"
+        }
+      ]
+    },
+    {
+      "id": "polarbear",
+      "name": "북극곰",
+      "habitat": "극지",
+      "poses": [
+        {
+          "id": "polarbear-01",
+          "order": 1,
+          "name": "걷기",
+          "path": "assets/animals/polarbear/01.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "01_걷기.png"
+        },
+        {
+          "id": "polarbear-02",
+          "order": 2,
+          "name": "얼음걷기",
+          "path": "assets/animals/polarbear/02.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "02_얼음걷기.png"
+        },
+        {
+          "id": "polarbear-03",
+          "order": 3,
+          "name": "헤엄치기",
+          "path": "assets/animals/polarbear/03.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "03_헤엄치기.png"
+        },
+        {
+          "id": "polarbear-04",
+          "order": 4,
+          "name": "주변살피기",
+          "path": "assets/animals/polarbear/04.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "04_주변살피기.png"
+        },
+        {
+          "id": "polarbear-05",
+          "order": 5,
+          "name": "새끼와함께",
+          "path": "assets/animals/polarbear/05.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "05_새끼와함께.png"
+        }
+      ]
+    },
+    {
+      "id": "fennec",
+      "name": "사막여우",
+      "habitat": "사막",
+      "poses": [
+        {
+          "id": "fennec-01",
+          "order": 1,
+          "name": "앉기",
+          "path": "assets/animals/fennec/01.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "01_앉기.png"
+        },
+        {
+          "id": "fennec-02",
+          "order": 2,
+          "name": "달리기",
+          "path": "assets/animals/fennec/02.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "02_달리기.png"
+        },
+        {
+          "id": "fennec-03",
+          "order": 3,
+          "name": "살금살금걷기",
+          "path": "assets/animals/fennec/03.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "03_살금살금걷기.png"
+        },
+        {
+          "id": "fennec-04",
+          "order": 4,
+          "name": "소리듣기",
+          "path": "assets/animals/fennec/04.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "04_소리듣기.png"
+        },
+        {
+          "id": "fennec-05",
+          "order": 5,
+          "name": "굴에서쉬기",
+          "path": "assets/animals/fennec/05.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "05_굴에서쉬기.png"
+        }
+      ]
+    },
+    {
+      "id": "lion",
+      "name": "사자",
+      "habitat": "초원",
+      "poses": [
+        {
+          "id": "lion-01",
+          "order": 1,
+          "name": "앉기",
+          "path": "assets/animals/lion/01.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "01_앉기.png"
+        },
+        {
+          "id": "lion-02",
+          "order": 2,
+          "name": "걷기",
+          "path": "assets/animals/lion/02.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "02_걷기.png"
+        },
+        {
+          "id": "lion-03",
+          "order": 3,
+          "name": "포효하기",
+          "path": "assets/animals/lion/03.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "03_포효하기.png"
+        },
+        {
+          "id": "lion-04",
+          "order": 4,
+          "name": "새끼와놀기",
+          "path": "assets/animals/lion/04.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "04_새끼와놀기.png"
+        },
+        {
+          "id": "lion-05",
+          "order": 5,
+          "name": "그늘낮잠",
+          "path": "assets/animals/lion/05.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "05_그늘낮잠.png"
+        }
+      ]
+    },
+    {
+      "id": "snowleopard",
+      "name": "눈표범",
+      "habitat": "산",
+      "poses": [
+        {
+          "id": "snowleopard-01",
+          "order": 1,
+          "name": "앉기",
+          "path": "assets/animals/snowleopard/01.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "01_앉기.png"
+        },
+        {
+          "id": "snowleopard-02",
+          "order": 2,
+          "name": "바위오르기",
+          "path": "assets/animals/snowleopard/02.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "02_바위오르기.png"
+        },
+        {
+          "id": "snowleopard-03",
+          "order": 3,
+          "name": "점프하기",
+          "path": "assets/animals/snowleopard/03.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "03_점프하기.png"
+        },
+        {
+          "id": "snowleopard-04",
+          "order": 4,
+          "name": "꼬리감고쉬기",
+          "path": "assets/animals/snowleopard/04.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "04_꼬리감고쉬기.png"
+        },
+        {
+          "id": "snowleopard-05",
+          "order": 5,
+          "name": "산능선걷기",
+          "path": "assets/animals/snowleopard/05.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "05_산능선걷기.png"
+        }
+      ]
+    },
+    {
+      "id": "owl",
+      "name": "수리부엉이",
+      "habitat": "산",
+      "poses": [
+        {
+          "id": "owl-01",
+          "order": 1,
+          "name": "앉기",
+          "path": "assets/animals/owl/01.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "01_앉기.png"
+        },
+        {
+          "id": "owl-02",
+          "order": 2,
+          "name": "날개펼치기",
+          "path": "assets/animals/owl/02.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "02_날개펼치기.png"
+        },
+        {
+          "id": "owl-03",
+          "order": 3,
+          "name": "날기",
+          "path": "assets/animals/owl/03.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "03_날기.png"
+        },
+        {
+          "id": "owl-04",
+          "order": 4,
+          "name": "하강하기",
+          "path": "assets/animals/owl/04.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "04_하강하기.png"
+        },
+        {
+          "id": "owl-05",
+          "order": 5,
+          "name": "깃털다듬기",
+          "path": "assets/animals/owl/05.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "05_깃털다듬기.png"
+        }
+      ]
+    },
+    {
+      "id": "tiger",
+      "name": "호랑이",
+      "habitat": "숲",
+      "poses": [
+        {
+          "id": "tiger-01",
+          "order": 1,
+          "name": "서있기",
+          "path": "assets/animals/tiger/01.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "01_서있기.png"
+        },
+        {
+          "id": "tiger-02",
+          "order": 2,
+          "name": "숲속걷기",
+          "path": "assets/animals/tiger/02.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "02_숲속걷기.png"
+        },
+        {
+          "id": "tiger-03",
+          "order": 3,
+          "name": "엎드리기",
+          "path": "assets/animals/tiger/03.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "03_엎드리기.png"
+        },
+        {
+          "id": "tiger-04",
+          "order": 4,
+          "name": "헤엄치기",
+          "path": "assets/animals/tiger/04.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "04_헤엄치기.png"
+        },
+        {
+          "id": "tiger-05",
+          "order": 5,
+          "name": "나무긁기",
+          "path": "assets/animals/tiger/05.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "05_나무긁기.png"
+        }
+      ]
+    },
+    {
+      "id": "lemur",
+      "name": "알락꼬리여우원숭이",
+      "habitat": "숲",
+      "poses": [
+        {
+          "id": "lemur-01",
+          "order": 1,
+          "name": "앉기",
+          "path": "assets/animals/lemur/01.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "01_앉기.png"
+        },
+        {
+          "id": "lemur-02",
+          "order": 2,
+          "name": "꼬리세우고걷기",
+          "path": "assets/animals/lemur/02.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "02_꼬리세우고걷기.png"
+        },
+        {
+          "id": "lemur-03",
+          "order": 3,
+          "name": "나무뛰기",
+          "path": "assets/animals/lemur/03.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "03_나무뛰기.png"
+        },
+        {
+          "id": "lemur-04",
+          "order": 4,
+          "name": "햇볕쬐기",
+          "path": "assets/animals/lemur/04.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "04_햇볕쬐기.png"
+        },
+        {
+          "id": "lemur-05",
+          "order": 5,
+          "name": "털골라주기",
+          "path": "assets/animals/lemur/05.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "05_털골라주기.png"
+        }
+      ]
+    },
+    {
+      "id": "seal",
+      "name": "웨델물범",
+      "habitat": "극지",
+      "poses": [
+        {
+          "id": "seal-01",
+          "order": 1,
+          "name": "얼음위쉬기",
+          "path": "assets/animals/seal/01.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "01_얼음위쉬기.png"
+        },
+        {
+          "id": "seal-02",
+          "order": 2,
+          "name": "헤엄치기",
+          "path": "assets/animals/seal/02.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "02_헤엄치기.png"
+        },
+        {
+          "id": "seal-03",
+          "order": 3,
+          "name": "잠수하기",
+          "path": "assets/animals/seal/03.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "03_잠수하기.png"
+        },
+        {
+          "id": "seal-04",
+          "order": 4,
+          "name": "얼음구멍숨쉬기",
+          "path": "assets/animals/seal/04.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "04_얼음구멍숨쉬기.png"
+        },
+        {
+          "id": "seal-05",
+          "order": 5,
+          "name": "새끼와쉬기",
+          "path": "assets/animals/seal/05.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "05_새끼와쉬기.png"
+        }
+      ]
+    },
+    {
+      "id": "caracal",
+      "name": "카라칼",
+      "habitat": "초원",
+      "poses": [
+        {
+          "id": "caracal-01",
+          "order": 1,
+          "name": "앉기",
+          "path": "assets/animals/caracal/01.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "01_앉기.png"
+        },
+        {
+          "id": "caracal-02",
+          "order": 2,
+          "name": "걷기",
+          "path": "assets/animals/caracal/02.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "02_걷기.png"
+        },
+        {
+          "id": "caracal-03",
+          "order": 3,
+          "name": "높이점프하기",
+          "path": "assets/animals/caracal/03.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "03_높이점프하기.png"
+        },
+        {
+          "id": "caracal-04",
+          "order": 4,
+          "name": "귀움직이기",
+          "path": "assets/animals/caracal/04.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "04_귀움직이기.png"
+        },
+        {
+          "id": "caracal-05",
+          "order": 5,
+          "name": "나무오르기",
+          "path": "assets/animals/caracal/05.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "05_나무오르기.png"
+        }
+      ]
+    },
+    {
+      "id": "gazelle",
+      "name": "톰슨가젤",
+      "habitat": "초원",
+      "poses": [
+        {
+          "id": "gazelle-01",
+          "order": 1,
+          "name": "주변살피기",
+          "path": "assets/animals/gazelle/01.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "01_주변살피기.png"
+        },
+        {
+          "id": "gazelle-02",
+          "order": 2,
+          "name": "풀뜯어먹기",
+          "path": "assets/animals/gazelle/02.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "02_풀뜯어먹기.png"
+        },
+        {
+          "id": "gazelle-03",
+          "order": 3,
+          "name": "달리기",
+          "path": "assets/animals/gazelle/03.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "03_달리기.png"
+        },
+        {
+          "id": "gazelle-04",
+          "order": 4,
+          "name": "네발점프하기",
+          "path": "assets/animals/gazelle/04.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "04_네발점프하기.png"
+        },
+        {
+          "id": "gazelle-05",
+          "order": 5,
+          "name": "새끼와함께",
+          "path": "assets/animals/gazelle/05.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "05_새끼와함께.png"
+        }
+      ]
+    },
+    {
+      "id": "cheetah",
+      "name": "치타",
+      "habitat": "초원",
+      "poses": [
+        {
+          "id": "cheetah-01",
+          "order": 1,
+          "name": "앉기",
+          "path": "assets/animals/cheetah/01.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "01_앉기.png"
+        },
+        {
+          "id": "cheetah-02",
+          "order": 2,
+          "name": "몸낮춰접근하기",
+          "path": "assets/animals/cheetah/02.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "02_몸낮춰접근하기.png"
+        },
+        {
+          "id": "cheetah-03",
+          "order": 3,
+          "name": "전력질주하기",
+          "path": "assets/animals/cheetah/03.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "03_전력질주하기.png"
+        },
+        {
+          "id": "cheetah-04",
+          "order": 4,
+          "name": "방향바꾸기",
+          "path": "assets/animals/cheetah/04.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "04_방향바꾸기.png"
+        },
+        {
+          "id": "cheetah-05",
+          "order": 5,
+          "name": "높은곳살피기",
+          "path": "assets/animals/cheetah/05.png",
+          "quality": "preview",
+          "width": 576,
+          "height": 576,
+          "hasTransparency": true,
+          "backgroundStatus": "포스터 분리 시안·테두리 및 잘림 확인 필요",
+          "sourceFilename": "05_높은곳살피기.png"
+        }
+      ]
+    }
+  ]
+}
